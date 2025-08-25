@@ -503,7 +503,7 @@ if __name__ == "__main__":
     param_vector_1 = np.arange(20, 70, 4)
     param_vector_2 = np.arange(120, 240, 4)
 
-    action = 'permutation test'
+    action = 'walk-forward test'
     print(backtest.df)
 
     if action=='walk-forward test':
